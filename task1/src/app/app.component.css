@@ -1,0 +1,14 @@
+div{
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    background:coral;
+    border-radius: 5px;
+}
+div:hover{
+    background:chocolate;
+}
+#head{
+    color: aliceblue;
+    background:chocolate;
+}

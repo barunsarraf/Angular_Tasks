@@ -1,0 +1,5 @@
+<h1>Scenario3 Task</h1>
+This is Parent Component Input Text:
+  <input #inputparent type="text" #input>
+  <button (click)="sendtochild(inputparent.value)">Send to Child</button>
+  <app-component2s3 [parentData]="values" ></app-component2s3>

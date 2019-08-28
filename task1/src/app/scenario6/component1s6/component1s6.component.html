@@ -1,0 +1,8 @@
+<h1>Scenario6 Task</h1>
+<div>
+        <input #inputparent type="text" #input>
+        <button (click)="sendto3child(inputparent.value)">Send to Sibling</button>
+</div>
+
+<app-component2s6></app-component2s6>
+<app-component3s6 [parentData]="siblingdata"></app-component3s6>
